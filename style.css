@@ -1,0 +1,21 @@
+body{
+    background:rgb(221, 55, 55)
+}
+
+h1, h2{
+    color:rgb(9, 9, 31);
+    text-align:center
+}
+
+h3, h4{
+    color:#000; 
+    text-align:right
+}
+
+p{
+   color:rgb(255, 47, 95) 
+   
+}
+.mani{
+    color:#000;
+}

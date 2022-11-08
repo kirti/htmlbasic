@@ -1,0 +1,80 @@
+body{
+    background:rgb(226, 217, 217);
+    font-family: "Helvetica", "Arial";
+}
+
+h1{
+    color:rgb(9, 9, 31);
+    text-align:center;
+    font-family: "Glegoo";
+}
+h2{
+    color:rgb(0, 255, 162);
+    text-align:left
+}
+h3{
+    color:#000; 
+    text-align:right
+}
+
+p {
+  line-height: 10px;
+  color:rgb(255, 47, 95) 
+  }
+
+  .testk  .ptag{
+    color:beige;
+    margin:10px;
+  }
+
+
+.mani{
+    color:#000;
+}
+
+ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: rgb(162, 42, 42);
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {background: red;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {background: green;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {background: orange;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {background: pink;}
+}
