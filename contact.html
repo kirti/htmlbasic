@@ -4,7 +4,7 @@
     <title>my kirti page App</title>
     <link rel="stylesheet" href="css/style.css">
     <script>
-      function kk(name,email,...props) {
+      function kk() {
         document.getElementById("myForm").submit();
       }
       </script>
@@ -21,7 +21,7 @@
        </ul>
        <h1>Contact us </h1>
 
-       <form action=""  id="myForm">
+       <form  id="myForm" method="post">
       
         <label for="firstname">First name:</label><br>
         <input type="text" id="firstname" name="firstname" value="" placeholder="enter your name" required><br>
@@ -42,7 +42,7 @@
         <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
         <label for="vehicle3"> I have a boat</label>
         <textarea cols="300" row="100" name="address"></textarea>
-        <input type="button" onclick="kk()" value="Submit form">
+        <input type="submit" onclick="kk()" value="Submit form">
       </form> 
    
   </body>
